@@ -1,0 +1,13 @@
+server:
+  port: 9000 #porta da aplicação
+eureka:
+  instance:
+    hostname: localhost # host do eureka
+  client: #congiguração dos clientes que o servidor irar escutar
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+  server:
+    eviction-interval-time-in-ms: 1000 # evitar time out no server
