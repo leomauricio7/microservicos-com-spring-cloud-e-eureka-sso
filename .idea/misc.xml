@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-2/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-zuul-proxi/pom.xml" />
       </list>
     </option>
   </component>

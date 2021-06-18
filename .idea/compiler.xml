@@ -7,17 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TesteEureka" />
+        <module name="EurekaClient2" />
         <module name="EurekaCLient" />
+        <module name="EurekaZuulProxi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EurekaCLient" target="11" />
+      <module name="EurekaClient2" target="11" />
+      <module name="EurekaZuulProxi" target="11" />
       <module name="TesteEureka" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaCLient" options="-parameters" />
+      <module name="EurekaClient2" options="-parameters" />
+      <module name="EurekaZuulProxi" options="-parameters" />
       <module name="TesteEureka" options="-parameters" />
     </option>
   </component>

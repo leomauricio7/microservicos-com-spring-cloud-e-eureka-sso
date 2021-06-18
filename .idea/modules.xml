@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-client/EurekaCLient.iml" filepath="$PROJECT_DIR$/eureka-client/EurekaCLient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-2/EurekaClient2.iml" filepath="$PROJECT_DIR$/eureka-client-2/EurekaClient2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul-proxi/EurekaZuulProxi.iml" filepath="$PROJECT_DIR$/eureka-zuul-proxi/EurekaZuulProxi.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/TesteEureka.iml" filepath="$PROJECT_DIR$/eureka-server/TesteEureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sping-cloud -eureka-sso.iml" filepath="$PROJECT_DIR$/.idea/sping-cloud -eureka-sso.iml" />
     </modules>

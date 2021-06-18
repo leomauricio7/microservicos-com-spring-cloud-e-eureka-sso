@@ -1,0 +1,22 @@
+zuul:
+  routes:
+    eureka-client-1: #cliente
+      path: /client1/** # expoem a roita que deseja ser publica
+      stripPrefix: false # prefixe de instancia
+    eureka-client-2: # cliente
+      path: /client2/** # expoem a roita que deseja ser publica
+      stripPrefix: false # prefixe de instancia
+
+eureka: # conf do eureka
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:9000/eureka/
+
+  server:
+    eviction-interval-timer-in-ms: 1000
+
+spring:
+  application:
+    name: zull-proxi-service

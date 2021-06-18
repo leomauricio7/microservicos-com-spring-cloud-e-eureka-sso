@@ -6,8 +6,11 @@ eureka:
   client: #congiguração dos clientes que o servidor irar escutar
     register-with-eureka: false
     fetch-registry: false
+
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
   server:
     eviction-interval-time-in-ms: 1000 # evitar time out no server
+    #enableSelfPreservation: false # desabilita o avido de replicas
+    wait-time-in-ms-when-sync-empty: 0
